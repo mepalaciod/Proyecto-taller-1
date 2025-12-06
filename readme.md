@@ -2,7 +2,7 @@
 
 ## Description
 
-    *This is my new blog where you can know about Biology and some topics about Biotechnology.*
+*This is my new blog where you can know about Biology and some topics about Biotechnology.*
 
 ## Technologies used
 - *GitHub* - Where you put the repository online, where you can see the changes from your local repository. 
