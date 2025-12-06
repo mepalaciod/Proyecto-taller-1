@@ -10,4 +10,4 @@
 - *CSS* - Where you can put styles and different kind of effects in your web page.
 - *Html* - It's the language to create the structure and the content from whatever web page.
 ## Author:
- María Palacio
+ Design by w3layouts
