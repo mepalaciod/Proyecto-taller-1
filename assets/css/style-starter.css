@@ -3158,12 +3158,12 @@
   font-size: 32px;
   font-weight: 600;
   text-transform: capitalize;
-  color: var(--log-nav) !important;
+  color: #ffffff !important;
 }
 
 .w3l-header-4 .navbar .navbar-brand span.fa {
   display: inline-block;
-  color: var(--log-nav);
+  color: #ffffff;
 }
 
 .w3l-header-4 .navbar .navbar-brand img {
@@ -4053,7 +4053,14 @@
   z-index: 0;
   display: grid;
   align-items: end;
+  cursor: pointer;
+  transition: opacity 0.4s ease-in-out;
 }
+
+.w3l-specification-6 .ser-bg1:hover {
+  opacity: 0.3;
+}
+
 .w3l-specification-6 .images-right p {
   max-width: 500px;
 }
@@ -4063,9 +4070,14 @@
   min-height: 400px;
   position: relative;
   z-index: 0;
-  display: grid;
-  align-items: end;
+  cursor: pointer;
+  transition: opacity 0.4s ease-in-out;
 }
+
+.w3l-specification-6 .ser-bg2:hover {
+  opacity: 0.3;
+}
+
 .w3l-specification-6 .ser-bg3 {
   background: url(../images/b6.jpg) no-repeat center;
   background-size: cover;
@@ -4118,7 +4130,7 @@
 }
 .w3l-specification-6 .grid figure figcaption {
   padding: 2em;
-  color: #2c3e50;
+  color: #ffffff;
   font-weight: 700;
   letter-spacing: 0.5px;
   font-size: 1.25em;
@@ -4149,7 +4161,7 @@
   font-size: 26px;
   font-weight: 700;
   display: block;
-  color: #2c3e50;
+  color: #ffffff;
   font-weight: 700;
   letter-spacing: 0.5px;
 }
