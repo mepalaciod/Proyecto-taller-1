@@ -3141,11 +3141,32 @@
 
 .w3l-header-4 header {
   transition: all 0.4s ease 0s;
-  height: 70px;
+  height: 80px;
   display: grid;
   align-items: center;
-  background: linear-gradient(90deg, #1a3a52 0%, #2c5282 100%);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  background: linear-gradient(90deg, #0052d4 0%, #65c7f7 100%);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.18);
+  backdrop-filter: blur(6px);
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+/* Brand and nav link overrides for better contrast */
+.w3l-header-4 .navbar .navbar-brand {
+  color: #ffffff !important;
+}
+.w3l-header-4 .navbar .navbar-brand span.fa {
+  color: #ffffff;
+}
+.w3l-header-4 .navbar-expand-lg .navbar-nav .nav-link {
+  color: #ffffff !important;
+  font-weight: 600;
+  transition: color 0.2s ease;
+}
+.w3l-header-4 .navbar-expand-lg .navbar-nav .nav-link:hover {
+  color: #ffeaa7 !important;
 }
 
 .w3l-header-4 .navbar {
@@ -5266,8 +5287,10 @@
 }
 
 .w3l-footer-29-main {
-  background: linear-gradient(90deg, #1a3a52 0%, #2c5282 100%);
-  box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.15);
+  background: linear-gradient(90deg, #0052d4 0%, #65c7f7 100%);
+  box-shadow: 0 -6px 20px rgba(0, 0, 0, 0.25);
+  color: #ffffff;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
 }
 .w3l-footer-29-main .footer-top-29 {
   display: grid;
@@ -5283,13 +5306,13 @@
   letter-spacing: 0.5px;
 }
 .w3l-footer-29-main .footer-list-29 a p {
-  color: #aaa;
+  color: #e6eef8;
   font-size: 16px;
   line-height: 25px;
 }
 .w3l-footer-29-main h6.footer-title-29,
 .w3l-footer-29-main h2.footer-title-29 {
-  color: #000000;
+  color: #ffffff;
   font-weight: 700;
   letter-spacing: 0.5px;
   font-size: 20px;
@@ -5316,14 +5339,15 @@
   font-weight: normal;
   font-size: 16px;
   line-height: 25px;
-  color: #aaa;
+  color: #e6eef8;
 }
 .w3l-footer-29-main .footer-list-29 ul li a:hover {
-  color: #eee;
+  color: #ffeaa7;
 }
 .w3l-footer-29-main .main-social-footer-29 a {
   margin-right: 10px;
-  color: #777;
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.06);
   width: 35px;
   height: 35px;
   line-height: 35px;
@@ -5331,9 +5355,13 @@
   text-align: center;
   font-size: 14px;
   transition: 0.3s;
+  border-radius: 4px;
 }
 .w3l-footer-29-main .main-social-footer-29 a:hover {
   transition: 0.3s;
+  background: #ffeaa7;
+  color: #1a1a1a;
+  transform: translateY(-2px);
 }
 .w3l-footer-29-main .main-social-footer-29 a.facebook:hover,
 .w3l-footer-29-main .main-social-footer-29 a.twitter:hover,
@@ -7036,9 +7064,36 @@ body {
   color: #e8e8e8;
   text-align: left;
   background: linear-gradient(135deg, #1a1a1a 0%, #000000 100%);
-  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48"><defs><linearGradient id="grad" x1="0%25" y1="0%25" x2="100%25" y2="100%25"><stop offset="0%25" style="stop-color:%2334C759;stop-opacity:1"/><stop offset="100%25" style="stop-color:%231FA839;stop-opacity:1"/></linearGradient></defs><g><path d="M24 4 Q32 8 36 18 Q38 24 36 32 Q32 40 24 44 Q16 40 12 32 Q10 24 12 18 Q16 8 24 4" fill="url(%23grad)" stroke="%231FA839" stroke-width="1"/><path d="M24 4 Q24 12 24 44" stroke="%23228B22" stroke-width="1.5" opacity="0.6"/><path d="M16 14 Q20 18 24 20" stroke="%23228B22" stroke-width="1" opacity="0.7" fill="none"/><path d="M32 14 Q28 18 24 20" stroke="%23228B22" stroke-width="1" opacity="0.7" fill="none"/><path d="M14 24 Q20 26 24 26" stroke="%23228B22" stroke-width="1" opacity="0.7" fill="none"/><path d="M34 24 Q28 26 24 26" stroke="%23228B22" stroke-width="1" opacity="0.7" fill="none"/><path d="M16 34 Q20 36 24 38" stroke="%23228B22" stroke-width="1" opacity="0.7" fill="none"/><path d="M32 34 Q28 36 24 38" stroke="%23228B22" stroke-width="1" opacity="0.7" fill="none"/></g></svg>')
-      24 4,
+  /* Planta / Flor realista: cursor SVG (hotspot 16 12). Fallback a auto. */
+  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48"><defs><linearGradient id="pf1" x1="0%25" y1="0%25" x2="100%25" y2="100%25"><stop offset="0%25" style="stop-color:%23fff0b2;stop-opacity:1"/><stop offset="40%25" style="stop-color:%23ffb3c6;stop-opacity:1"/><stop offset="100%25" style="stop-color:%23ff6fa3;stop-opacity:1"/></linearGradient><linearGradient id="pf2" x1="0%25" y1="0%25" x2="100%25" y2="100%25"><stop offset="0%25" style="stop-color:%23d1f7c4;stop-opacity:1"/><stop offset="100%25" style="stop-color:%231aa64a;stop-opacity:1"/></linearGradient><filter id="sd" x="-50%25" y="-50%25" width="200%25" height="200%25"><feDropShadow dx="0" dy="1" stdDeviation="1" flood-color="%23000" flood-opacity="0.25"/></filter></defs><g filter="url(%23sd)"><g transform="translate(24,18)"><path d="M0 -8 C5 -12 12 -12 16 -8 C12 -4 8 0 0 6 C-8 0 -12 -4 -16 -8 C-12 -12 -5 -12 0 -8 Z" fill="url(%23pf1)" stroke="%23c54a7a" stroke-width="0.9"/></g><circle cx="24" cy="24" r="6" fill="%23ffd166" stroke="%23f59e0b" stroke-width="0.8"/><path d="M24 30 L24 42" stroke="%23153b16" stroke-width="1.6" stroke-linecap="round"/><path d="M24 36 C22 34 20 34 18 32" stroke="%23153b16" stroke-width="1" stroke-linecap="round" fill="none"/></g></svg>')
+      16 12,
     auto;
+
+  /* Clickable elements: vibrant pointer with hotspot and pointer fallback */
+}
+
+a,
+button,
+input[type="button"],
+input[type="submit"],
+.btn,
+.main-social-footer-29 a {
+  /* Pequeña flor/hoja para elementos clicables (hotspot 6 6) */
+  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28"><defs><linearGradient id="fp1" x1="0%25" y1="0%25" x2="100%25" y2="100%25"><stop offset="0%25" style="stop-color:%23fff0b2;stop-opacity:1"/><stop offset="50%25" style="stop-color:%23ffb3c6;stop-opacity:1"/><stop offset="100%25" style="stop-color:%23ff6fa3;stop-opacity:1"/></linearGradient><linearGradient id="fp2" x1="0%25" y1="0%25" x2="100%25" y2="100%25"><stop offset="0%25" style="stop-color:%23d1f7c4;stop-opacity:1"/><stop offset="100%25" style="stop-color:%231aa64a;stop-opacity:1"/></linearGradient></defs><g><path d="M14 6 C18 6 22 8 24 12 C20 14 18 16 14 18 C10 16 8 14 4 12 C6 8 10 6 14 6 Z" fill="url(%23fp1)" stroke="%23c54a7a" stroke-width="0.6"/><circle cx="14" cy="14" r="3" fill="%23ffd166" stroke="%23f59e0b" stroke-width="0.5"/><path d="M14 17 L14 24" stroke="%23153b16" stroke-width="0.9" stroke-linecap="round"/></g></svg>')
+      6 6,
+    pointer;
+
+  /* Ensure cursor doesn't change on click/focus for clickable elements */
+  a:active,
+  a:focus,
+  button:active,
+  button:focus,
+  input[type="button"]:active,
+  input[type="submit"]:active,
+  .btn:active,
+  .main-social-footer-29 a:active {
+    cursor: inherit;
+  }
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
