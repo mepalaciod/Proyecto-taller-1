@@ -203,7 +203,9 @@
 }
 
 .fa-inverse {
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
 }
 
 /* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
@@ -3123,7 +3125,8 @@
 
 .w3l-header-4 .phone a {
   font-size: 18px;
-  color: #ffffff; font-weight: 600;
+  color: #ffffff;
+  font-weight: 600;
   font-weight: 500;
 }
 
@@ -3251,7 +3254,9 @@
 }
 
 .w3l-header-4 nav ul li a:hover {
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
 }
 
 .w3l-header-4 .navbar-dark .navbar-nav .nav-link:focus {
@@ -3291,12 +3296,16 @@
 }
 
 .w3l-header-4 .nav-fixed .phone a {
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
 }
 
 .w3l-header-4 .nav-fixed .phone a span {
   opacity: 1;
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
 }
 
 .w3l-header-4
@@ -3318,7 +3327,8 @@
 
 .w3l-header-4 .dropdown-item:hover,
 .w3l-header-4 .dropdown-item:focus {
-  color: #ffffff; font-weight: 600;
+  color: #ffffff;
+  font-weight: 600;
   text-decoration: none;
   background-color: transparent;
 }
@@ -3351,7 +3361,9 @@
   font-size: 18px;
   line-height: 28px;
   font-weight: 600;
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   transition: 0.3s ease-in;
   border-radius: 4px;
 }
@@ -3461,11 +3473,15 @@
   }
   .w3l-header-4 .phone a {
     font-size: 18px;
-    color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+    color: #2c3e50;
+    font-weight: 700;
+    letter-spacing: 0.5px;
     font-weight: 500;
   }
   .w3l-header-4 .phone a span {
-    color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+    color: #2c3e50;
+    font-weight: 700;
+    letter-spacing: 0.5px;
   }
   .w3l-header-4 header.nav-fixed {
     height: auto;
@@ -3487,7 +3503,9 @@
   .w3l-header-4 .navbar-toggler-icon.fa {
     font-size: 20px;
     line-height: 1.2em;
-    color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+    color: #2c3e50;
+    font-weight: 700;
+    letter-spacing: 0.5px;
     line-height: 34px;
   }
   .w3l-header-4 .navbar-toggler {
@@ -3555,8 +3573,22 @@
 .w3l-hero-headers-9 .banner-text h5 {
   font-size: 60px;
   line-height: 70px;
-  color: #ffffff; font-weight: 700; letter-spacing: 0.5px;
+  color: #ffffff;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   text-transform: capitalize;
+  animation: fadeInScale 1.2s ease-in-out forwards;
+}
+
+@keyframes fadeInScale {
+  from {
+    opacity: 0;
+    transform: scale(0.8) translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
 }
 
 .w3l-hero-headers-9 .slide {
@@ -3604,7 +3636,9 @@
   font-size: 18px;
   line-height: 28px;
   font-weight: 600;
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   transition: 0.3s ease-in;
   border-radius: 4px;
 }
@@ -4084,7 +4118,9 @@
 }
 .w3l-specification-6 .grid figure figcaption {
   padding: 2em;
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   font-size: 1.25em;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
@@ -4113,7 +4149,9 @@
   font-size: 26px;
   font-weight: 700;
   display: block;
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
 }
 .w3l-specification-6 .grid figure h5 a:hover {
   color: #05dfd7;
@@ -5228,7 +5266,9 @@
   font-size: 13px;
 }
 .w3l-footer-29-main .footer-list-29 .properties a p:hover {
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
 }
 .w3l-footer-29-main .footer-list-29 a p {
   color: #aaa;
@@ -5237,7 +5277,9 @@
 }
 .w3l-footer-29-main h6.footer-title-29,
 .w3l-footer-29-main h2.footer-title-29 {
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #000000;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   font-size: 20px;
   line-height: 25px;
   text-transform: capitalize;
@@ -5290,23 +5332,33 @@
 }
 .w3l-footer-29-main .main-social-footer-29 a.facebook {
   background: #3b5998;
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
 }
 .w3l-footer-29-main .main-social-footer-29 a.twitter {
   background: #1da1f2;
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
 }
 .w3l-footer-29-main .main-social-footer-29 a.instagram {
   background: #c13584;
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
 }
 .w3l-footer-29-main .main-social-footer-29 a.linkedin {
   background: #0077b5;
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
 }
 .w3l-footer-29-main .main-social-footer-29 a.google-plus {
   background: #dd4b39;
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
 }
 .w3l-footer-29-main .footer-list-29 ul li span.fa {
   width: 20px;
@@ -5325,7 +5377,9 @@
   color: #ccc;
 }
 .w3l-footer-29-main .copy-footer-29 a:hover {
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
 }
 .w3l-footer-29-main ul.list-btm-29,
 .w3l-footer-29-main p.right-side-con {
@@ -5347,7 +5401,9 @@
 }
 .w3l-footer-29-main .list-btm-29 li a:hover,
 .w3l-footer-29-main .list-btm-29 li select:hover {
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
 }
 .w3l-footer-29-main .list-btm-29 li select {
   border: none;
@@ -5639,7 +5695,9 @@
   line-height: 35px;
   text-transform: capitalize;
   font-weight: 700;
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
 }
 
 .w3l-stats .icon-back {
@@ -5652,7 +5710,9 @@
 
 .w3l-stats .icon-back span.fa {
   font-size: 20px;
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   width: 50px;
   line-height: 50px;
   text-align: center;
@@ -5865,7 +5925,9 @@
   font-size: 16px;
   padding: 15px 30px;
   margin: 40px auto 0;
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   background: #fa26a0;
   border-color: #fa26a0;
   display: inline-block;
@@ -5883,7 +5945,9 @@
 .w3l-contact-info-main button.btn-contact:hover {
   background: #05dfd7;
   border-color: #05dfd7;
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
 }
 
 .w3l-contact-info-main .map-content-9 form textarea {
@@ -6694,7 +6758,9 @@
   font-size: 16px;
   line-height: 25px;
   border: 1px solid #fa26a0;
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   background: #fa26a0;
   padding: 12px 15px;
   border-radius: 4px;
@@ -6951,7 +7017,7 @@ section {
 
 body {
   margin: 0;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Arial", Helvetica, sans-serif;
   font-size: 1.1rem;
   font-weight: 500;
   line-height: 1.6;
@@ -7446,7 +7512,9 @@ mark,
 
 .img-thumbnail {
   padding: 0.25rem;
-  background-color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  background-color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   border: 1px solid #dee2e6;
   border-radius: 0.25rem;
   max-width: 100%;
@@ -7479,7 +7547,9 @@ a > code {
 kbd {
   padding: 0.2rem 0.4rem;
   font-size: 87.5%;
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   background-color: #212529;
   border-radius: 0.2rem;
 }
@@ -8778,7 +8848,9 @@ pre code {
 }
 
 .table .thead-dark th {
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   background-color: #343a40;
   border-color: #454d55;
 }
@@ -8790,7 +8862,9 @@ pre code {
 }
 
 .table-dark {
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   background-color: #343a40;
 }
 .table-dark th,
@@ -8805,7 +8879,9 @@ pre code {
   background-color: rgba(255, 255, 255, 0.05);
 }
 .table-dark.table-hover tbody tr:hover {
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   background-color: rgba(255, 255, 255, 0.075);
 }
 
@@ -8876,7 +8952,9 @@ pre code {
   font-weight: 400;
   line-height: 1.5;
   color: #495057;
-  background-color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  background-color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   background-clip: padding-box;
   border: 1px solid #ced4da;
   border-radius: 0.25rem;
@@ -8897,7 +8975,9 @@ pre code {
 }
 .form-control:focus {
   color: #495057;
-  background-color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  background-color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   border-color: #fda3d7;
   outline: 0;
   box-shadow: 0 0 0 0.2rem rgba(250, 38, 160, 0.25);
@@ -8930,7 +9010,9 @@ pre code {
 
 select.form-control:focus::-ms-value {
   color: #495057;
-  background-color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  background-color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
 }
 
 .form-control-file,
@@ -9076,7 +9158,9 @@ textarea.form-control {
   margin-top: 0.1rem;
   font-size: 0.875rem;
   line-height: 1.5;
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   background-color: rgba(40, 167, 69, 0.9);
   border-radius: 0.25rem;
 }
@@ -9199,7 +9283,9 @@ textarea.form-control.is-valid {
   margin-top: 0.1rem;
   font-size: 0.875rem;
   line-height: 1.5;
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   background-color: rgba(220, 53, 69, 0.9);
   border-radius: 0.25rem;
 }
@@ -9406,32 +9492,42 @@ fieldset:disabled a.btn {
 }
 
 .btn-primary {
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   background-color: #fa26a0;
   border-color: #fa26a0;
 }
 .btn-primary:hover {
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   background-color: #f4068f;
   border-color: #e80588;
 }
 .btn-primary:focus,
 .btn-primary.focus {
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   background-color: #f4068f;
   border-color: #e80588;
   box-shadow: 0 0 0 0.2rem rgba(251, 71, 174, 0.5);
 }
 .btn-primary.disabled,
 .btn-primary:disabled {
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   background-color: #fa26a0;
   border-color: #fa26a0;
 }
 .btn-primary:not(:disabled):not(.disabled):active,
 .btn-primary:not(:disabled):not(.disabled).active,
 .show > .btn-primary.dropdown-toggle {
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   background-color: #e80588;
   border-color: #db0580;
 }
@@ -9447,13 +9543,17 @@ fieldset:disabled a.btn {
   border-color: #05dfd7;
 }
 .btn-secondary:hover {
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   background-color: #04bab3;
   border-color: #04ada7;
 }
 .btn-secondary:focus,
 .btn-secondary.focus {
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   background-color: #04bab3;
   border-color: #04ada7;
   box-shadow: 0 0 0 0.2rem rgba(9, 195, 189, 0.5);
@@ -9467,7 +9567,9 @@ fieldset:disabled a.btn {
 .btn-secondary:not(:disabled):not(.disabled):active,
 .btn-secondary:not(:disabled):not(.disabled).active,
 .show > .btn-secondary.dropdown-toggle {
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   background-color: #04ada7;
   border-color: #04a19b;
 }
@@ -9478,32 +9580,42 @@ fieldset:disabled a.btn {
 }
 
 .btn-success {
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   background-color: #28a745;
   border-color: #28a745;
 }
 .btn-success:hover {
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   background-color: #218838;
   border-color: #1e7e34;
 }
 .btn-success:focus,
 .btn-success.focus {
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   background-color: #218838;
   border-color: #1e7e34;
   box-shadow: 0 0 0 0.2rem rgba(72, 180, 97, 0.5);
 }
 .btn-success.disabled,
 .btn-success:disabled {
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   background-color: #28a745;
   border-color: #28a745;
 }
 .btn-success:not(:disabled):not(.disabled):active,
 .btn-success:not(:disabled):not(.disabled).active,
 .show > .btn-success.dropdown-toggle {
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   background-color: #1e7e34;
   border-color: #1c7430;
 }
@@ -9514,32 +9626,42 @@ fieldset:disabled a.btn {
 }
 
 .btn-info {
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   background-color: #17a2b8;
   border-color: #17a2b8;
 }
 .btn-info:hover {
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   background-color: #138496;
   border-color: #117a8b;
 }
 .btn-info:focus,
 .btn-info.focus {
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   background-color: #138496;
   border-color: #117a8b;
   box-shadow: 0 0 0 0.2rem rgba(58, 176, 195, 0.5);
 }
 .btn-info.disabled,
 .btn-info:disabled {
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   background-color: #17a2b8;
   border-color: #17a2b8;
 }
 .btn-info:not(:disabled):not(.disabled):active,
 .btn-info:not(:disabled):not(.disabled).active,
 .show > .btn-info.dropdown-toggle {
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   background-color: #117a8b;
   border-color: #10707f;
 }
@@ -9586,32 +9708,42 @@ fieldset:disabled a.btn {
 }
 
 .btn-danger {
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   background-color: #dc3545;
   border-color: #dc3545;
 }
 .btn-danger:hover {
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   background-color: #c82333;
   border-color: #bd2130;
 }
 .btn-danger:focus,
 .btn-danger.focus {
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   background-color: #c82333;
   border-color: #bd2130;
   box-shadow: 0 0 0 0.2rem rgba(225, 83, 97, 0.5);
 }
 .btn-danger.disabled,
 .btn-danger:disabled {
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   background-color: #dc3545;
   border-color: #dc3545;
 }
 .btn-danger:not(:disabled):not(.disabled):active,
 .btn-danger:not(:disabled):not(.disabled).active,
 .show > .btn-danger.dropdown-toggle {
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   background-color: #bd2130;
   border-color: #b21f2d;
 }
@@ -9658,32 +9790,42 @@ fieldset:disabled a.btn {
 }
 
 .btn-dark {
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   background-color: #343a40;
   border-color: #343a40;
 }
 .btn-dark:hover {
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   background-color: #23272b;
   border-color: #1d2124;
 }
 .btn-dark:focus,
 .btn-dark.focus {
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   background-color: #23272b;
   border-color: #1d2124;
   box-shadow: 0 0 0 0.2rem rgba(82, 88, 93, 0.5);
 }
 .btn-dark.disabled,
 .btn-dark:disabled {
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   background-color: #343a40;
   border-color: #343a40;
 }
 .btn-dark:not(:disabled):not(.disabled):active,
 .btn-dark:not(:disabled):not(.disabled).active,
 .show > .btn-dark.dropdown-toggle {
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   background-color: #1d2124;
   border-color: #171a1d;
 }
@@ -9698,7 +9840,9 @@ fieldset:disabled a.btn {
   border-color: #fa26a0;
 }
 .btn-outline-primary:hover {
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   background-color: #fa26a0;
   border-color: #fa26a0;
 }
@@ -9714,7 +9858,9 @@ fieldset:disabled a.btn {
 .btn-outline-primary:not(:disabled):not(.disabled):active,
 .btn-outline-primary:not(:disabled):not(.disabled).active,
 .show > .btn-outline-primary.dropdown-toggle {
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   background-color: #fa26a0;
   border-color: #fa26a0;
 }
@@ -9760,7 +9906,9 @@ fieldset:disabled a.btn {
   border-color: #28a745;
 }
 .btn-outline-success:hover {
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   background-color: #28a745;
   border-color: #28a745;
 }
@@ -9776,7 +9924,9 @@ fieldset:disabled a.btn {
 .btn-outline-success:not(:disabled):not(.disabled):active,
 .btn-outline-success:not(:disabled):not(.disabled).active,
 .show > .btn-outline-success.dropdown-toggle {
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   background-color: #28a745;
   border-color: #28a745;
 }
@@ -9791,7 +9941,9 @@ fieldset:disabled a.btn {
   border-color: #17a2b8;
 }
 .btn-outline-info:hover {
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   background-color: #17a2b8;
   border-color: #17a2b8;
 }
@@ -9807,7 +9959,9 @@ fieldset:disabled a.btn {
 .btn-outline-info:not(:disabled):not(.disabled):active,
 .btn-outline-info:not(:disabled):not(.disabled).active,
 .show > .btn-outline-info.dropdown-toggle {
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   background-color: #17a2b8;
   border-color: #17a2b8;
 }
@@ -9853,7 +10007,9 @@ fieldset:disabled a.btn {
   border-color: #dc3545;
 }
 .btn-outline-danger:hover {
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   background-color: #dc3545;
   border-color: #dc3545;
 }
@@ -9869,7 +10025,9 @@ fieldset:disabled a.btn {
 .btn-outline-danger:not(:disabled):not(.disabled):active,
 .btn-outline-danger:not(:disabled):not(.disabled).active,
 .show > .btn-outline-danger.dropdown-toggle {
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   background-color: #dc3545;
   border-color: #dc3545;
 }
@@ -9915,7 +10073,9 @@ fieldset:disabled a.btn {
   border-color: #343a40;
 }
 .btn-outline-dark:hover {
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   background-color: #343a40;
   border-color: #343a40;
 }
@@ -9931,7 +10091,9 @@ fieldset:disabled a.btn {
 .btn-outline-dark:not(:disabled):not(.disabled):active,
 .btn-outline-dark:not(:disabled):not(.disabled).active,
 .show > .btn-outline-dark.dropdown-toggle {
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   background-color: #343a40;
   border-color: #343a40;
 }
@@ -10057,7 +10219,9 @@ input[type="button"].btn-block {
   color: #212529;
   text-align: left;
   list-style: none;
-  background-color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  background-color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.15);
   border-radius: 0.25rem;
@@ -10238,7 +10402,9 @@ input[type="button"].btn-block {
 }
 .dropdown-item.active,
 .dropdown-item:active {
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   text-decoration: none;
   background-color: #fa26a0;
 }
@@ -10580,7 +10746,9 @@ input[type="button"].btn-block {
   opacity: 0;
 }
 .custom-control-input:checked ~ .custom-control-label::before {
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   border-color: #fa26a0;
   background-color: #fa26a0;
 }
@@ -10591,7 +10759,9 @@ input[type="button"].btn-block {
   border-color: #fda3d7;
 }
 .custom-control-input:not(:disabled):active ~ .custom-control-label::before {
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   background-color: #fed4ec;
   border-color: #fed4ec;
 }
@@ -10618,7 +10788,9 @@ input[type="button"].btn-block {
   height: 1rem;
   pointer-events: none;
   content: "";
-  background-color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  background-color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   border: #adb5bd solid 1px;
 }
 .custom-control-label::after {
@@ -10704,7 +10876,9 @@ input[type="button"].btn-block {
   }
 }
 .custom-switch .custom-control-input:checked ~ .custom-control-label::after {
-  background-color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  background-color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   transform: translateX(0.75rem);
 }
 .custom-switch
@@ -10739,7 +10913,9 @@ input[type="button"].btn-block {
 }
 .custom-select:focus::-ms-value {
   color: #495057;
-  background-color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  background-color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
 }
 .custom-select[multiple],
 .custom-select[size]:not([size="1"]) {
@@ -10817,7 +10993,9 @@ input[type="button"].btn-block {
   font-weight: 400;
   line-height: 1.5;
   color: #495057;
-  background-color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  background-color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   border: 1px solid #ced4da;
   border-radius: 0.25rem;
 }
@@ -11033,7 +11211,9 @@ input[type="button"].btn-block {
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
   color: #495057;
-  background-color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  background-color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   border-color: #dee2e6 #dee2e6 #fff;
 }
 .nav-tabs .dropdown-menu {
@@ -11048,7 +11228,9 @@ input[type="button"].btn-block {
 
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   background-color: #fa26a0;
 }
 
@@ -11418,11 +11600,15 @@ input[type="button"].btn-block {
 }
 
 .navbar-dark .navbar-brand {
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
 }
 .navbar-dark .navbar-brand:hover,
 .navbar-dark .navbar-brand:focus {
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -11440,7 +11626,9 @@ input[type="button"].btn-block {
 .navbar-dark .navbar-nav .active > .nav-link,
 .navbar-dark .navbar-nav .nav-link.show,
 .navbar-dark .navbar-nav .nav-link.active {
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
 }
 
 .navbar-dark .navbar-toggler {
@@ -11456,11 +11644,15 @@ input[type="button"].btn-block {
   color: rgba(255, 255, 255, 0.5);
 }
 .navbar-dark .navbar-text a {
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
 }
 .navbar-dark .navbar-text a:hover,
 .navbar-dark .navbar-text a:focus {
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
 }
 
 .card {
@@ -11469,7 +11661,9 @@ input[type="button"].btn-block {
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  background-color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
@@ -11722,7 +11916,9 @@ input[type="button"].btn-block {
   margin-left: -1px;
   line-height: 1.25;
   color: #fa26a0;
-  background-color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  background-color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   border: 1px solid #dee2e6;
 }
 .page-link:hover {
@@ -11751,7 +11947,9 @@ input[type="button"].btn-block {
 
 .page-item.active .page-link {
   z-index: 3;
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   background-color: #fa26a0;
   border-color: #fa26a0;
 }
@@ -11760,7 +11958,9 @@ input[type="button"].btn-block {
   color: #6c757d;
   pointer-events: none;
   cursor: auto;
-  background-color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  background-color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   border-color: #dee2e6;
 }
 
@@ -11834,12 +12034,16 @@ a.badge:focus {
 }
 
 .badge-primary {
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   background-color: #fa26a0;
 }
 a.badge-primary:hover,
 a.badge-primary:focus {
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   background-color: #e80588;
 }
 a.badge-primary:focus,
@@ -11864,12 +12068,16 @@ a.badge-secondary.focus {
 }
 
 .badge-success {
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   background-color: #28a745;
 }
 a.badge-success:hover,
 a.badge-success:focus {
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   background-color: #1e7e34;
 }
 a.badge-success:focus,
@@ -11879,12 +12087,16 @@ a.badge-success.focus {
 }
 
 .badge-info {
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   background-color: #17a2b8;
 }
 a.badge-info:hover,
 a.badge-info:focus {
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   background-color: #117a8b;
 }
 a.badge-info:focus,
@@ -11909,12 +12121,16 @@ a.badge-warning.focus {
 }
 
 .badge-danger {
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   background-color: #dc3545;
 }
 a.badge-danger:hover,
 a.badge-danger:focus {
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   background-color: #bd2130;
 }
 a.badge-danger:focus,
@@ -11939,12 +12155,16 @@ a.badge-light.focus {
 }
 
 .badge-dark {
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   background-color: #343a40;
 }
 a.badge-dark:hover,
 a.badge-dark:focus {
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   background-color: #1d2124;
 }
 a.badge-dark:focus,
@@ -12126,7 +12346,9 @@ a.badge-dark.focus {
   flex-direction: column;
   justify-content: center;
   overflow: hidden;
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   text-align: center;
   white-space: nowrap;
   background-color: #fa26a0;
@@ -12200,7 +12422,9 @@ a.badge-dark.focus {
   position: relative;
   display: block;
   padding: 0.75rem 1.25rem;
-  background-color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  background-color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   border: 1px solid rgba(0, 0, 0, 0.125);
 }
 .list-group-item:first-child {
@@ -12215,11 +12439,15 @@ a.badge-dark.focus {
 .list-group-item:disabled {
   color: #6c757d;
   pointer-events: none;
-  background-color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  background-color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
 }
 .list-group-item.active {
   z-index: 2;
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   background-color: #fa26a0;
   border-color: #fa26a0;
 }
@@ -12377,7 +12605,9 @@ a.badge-dark.focus {
   background-color: #fea9d9;
 }
 .list-group-item-primary.list-group-item-action.active {
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   background-color: #821453;
   border-color: #821453;
 }
@@ -12392,7 +12622,9 @@ a.badge-dark.focus {
   background-color: #a2f3f0;
 }
 .list-group-item-secondary.list-group-item-action.active {
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   background-color: #037470;
   border-color: #037470;
 }
@@ -12407,7 +12639,9 @@ a.badge-dark.focus {
   background-color: #b1dfbb;
 }
 .list-group-item-success.list-group-item-action.active {
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   background-color: #155724;
   border-color: #155724;
 }
@@ -12422,7 +12656,9 @@ a.badge-dark.focus {
   background-color: #abdde5;
 }
 .list-group-item-info.list-group-item-action.active {
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   background-color: #0c5460;
   border-color: #0c5460;
 }
@@ -12437,7 +12673,9 @@ a.badge-dark.focus {
   background-color: #ffe8a1;
 }
 .list-group-item-warning.list-group-item-action.active {
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   background-color: #856404;
   border-color: #856404;
 }
@@ -12452,7 +12690,9 @@ a.badge-dark.focus {
   background-color: #f1b0b7;
 }
 .list-group-item-danger.list-group-item-action.active {
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   background-color: #721c24;
   border-color: #721c24;
 }
@@ -12467,7 +12707,9 @@ a.badge-dark.focus {
   background-color: #ececf6;
 }
 .list-group-item-light.list-group-item-action.active {
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   background-color: #818182;
   border-color: #818182;
 }
@@ -12482,7 +12724,9 @@ a.badge-dark.focus {
   background-color: #b9bbbe;
 }
 .list-group-item-dark.list-group-item-action.active {
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   background-color: #1b1e21;
   border-color: #1b1e21;
 }
@@ -12650,7 +12894,9 @@ a.close.disabled {
   flex-direction: column;
   width: 100%;
   pointer-events: auto;
-  background-color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  background-color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 0.3rem;
@@ -12863,7 +13109,9 @@ a.close.disabled {
 .tooltip-inner {
   max-width: 200px;
   padding: 0.25rem 0.5rem;
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   text-align: center;
   background-color: #000;
   border-radius: 0.25rem;
@@ -12894,7 +13142,9 @@ a.close.disabled {
   line-break: auto;
   font-size: 0.875rem;
   word-wrap: break-word;
-  background-color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  background-color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 0.3rem;
@@ -12933,7 +13183,9 @@ a.close.disabled {
 .bs-popover-auto[x-placement^="top"] > .arrow::after {
   bottom: 1px;
   border-width: 0.5rem 0.5rem 0;
-  border-top-color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  border-top-color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
 }
 
 .bs-popover-right,
@@ -12957,7 +13209,9 @@ a.close.disabled {
 .bs-popover-auto[x-placement^="right"] > .arrow::after {
   left: 1px;
   border-width: 0.5rem 0.5rem 0.5rem 0;
-  border-right-color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  border-right-color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
 }
 
 .bs-popover-bottom,
@@ -12978,7 +13232,9 @@ a.close.disabled {
 .bs-popover-auto[x-placement^="bottom"] > .arrow::after {
   top: 1px;
   border-width: 0 0.5rem 0.5rem 0.5rem;
-  border-bottom-color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  border-bottom-color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
 }
 .bs-popover-bottom .popover-header::before,
 .bs-popover-auto[x-placement^="bottom"] .popover-header::before {
@@ -13013,7 +13269,9 @@ a.close.disabled {
 .bs-popover-auto[x-placement^="left"] > .arrow::after {
   right: 1px;
   border-width: 0.5rem 0 0.5rem 0.5rem;
-  border-left-color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  border-left-color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
 }
 
 .popover-header {
@@ -13121,7 +13379,9 @@ a.close.disabled {
   align-items: center;
   justify-content: center;
   width: 15%;
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   text-align: center;
   opacity: 0.5;
   transition: opacity 0.15s ease;
@@ -13136,7 +13396,9 @@ a.close.disabled {
 .carousel-control-prev:focus,
 .carousel-control-next:hover,
 .carousel-control-next:focus {
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   text-decoration: none;
   outline: 0;
   opacity: 0.9;
@@ -13188,7 +13450,9 @@ a.close.disabled {
   margin-left: 3px;
   text-indent: -999px;
   cursor: pointer;
-  background-color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  background-color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   background-clip: padding-box;
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;
@@ -13212,7 +13476,9 @@ a.close.disabled {
   z-index: 10;
   padding-top: 20px;
   padding-bottom: 20px;
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   text-align: center;
 }
 
@@ -16691,10 +16957,14 @@ a.text-dark:focus {
   --header-title-color: #222;
   --para-color: #777;
   --nav-pages: #ababab;
-  --logo-color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  --logo-color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   --para-sub-color: #444;
   --para-white: #ccc;
-  --bg-color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  --bg-color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   --grid-color: #f6f6f6;
   --border-color: #ddd;
 }
@@ -16720,7 +16990,9 @@ body .gg-moon {
 
 body.dark .gg-sun {
   display: inline-block;
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
 }
 
 body.dark .gg-moon {
@@ -16757,7 +17029,9 @@ body.dark .gg-moon {
   border-radius: 100px;
   box-shadow: inset 0 0 0 2px;
   border: 6px solid transparent;
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
 }
 
 .gg-sun::after,
@@ -16881,7 +17155,7 @@ h5,
 h6 {
   margin: 0;
   padding: 0;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Arial", Helvetica, sans-serif;
 }
 
 p,
@@ -16891,7 +17165,7 @@ input,
 span,
 button,
 textarea {
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Arial", Helvetica, sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -16986,7 +17260,9 @@ a.logo-button {
 a.logo-button:hover,
 a.logo-button:active {
   background: rgba(255, 255, 255, 0.2);
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
 }
 
 a.action-button,
@@ -16994,7 +17270,9 @@ button.action-button {
   border: none;
   padding: 12px 30px;
   background-color: #fa26a0;
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   font-size: 16px;
   line-height: 25px;
   display: inline-block;
@@ -17007,7 +17285,9 @@ button.action-button {
 
 a.action-sub-button {
   border: 2px solid #fa26a0;
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   font-size: 17px;
   line-height: 25px;
   display: inline-block;
@@ -17023,13 +17303,17 @@ a.action-button:active,
 button.action-button:hover,
 button.action-button:active {
   background: #05dfd7;
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
 }
 
 a.action-sub-button:hover,
 a.action-sub-button:active {
   background: #fa26a0;
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   border: 2px solid #fa26a0;
 }
 
@@ -17114,7 +17398,9 @@ h3.white {
 }
 
 h3.color-white {
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
 }
 
 #movetop {
@@ -17140,7 +17426,9 @@ h3.color-white {
 }
 
 #movetop span {
-  color: #2c3e50; font-weight: 700; letter-spacing: 0.5px;
+  color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   font-size: 20px;
   line-height: 20px;
 }
