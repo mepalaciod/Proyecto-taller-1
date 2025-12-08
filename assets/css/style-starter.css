@@ -3141,7 +3141,7 @@
   height: 70px;
   display: grid;
   align-items: center;
-  background: rgba(255, 255, 255, 0.18);
+  background: #001a4d;
 }
 
 .w3l-header-4 .navbar {
@@ -3579,8 +3579,9 @@
   position: absolute;
   top: 0px;
   bottom: 0px;
-  opacity: 0.6;
+  opacity: 0;
   z-index: -1;
+  display: none;
 }
 
 .w3l-hero-headers-9 header {
@@ -3729,7 +3730,7 @@
 }
 .w3l-teams-15 .team-single-main {
   padding: 70px 0px;
-  background-color: var(--back-color);
+  background-color: var(--pink-color);
 }
 .w3l-teams-15 .team-para a:hover {
   color: var(--border-color);
@@ -3840,6 +3841,7 @@
 
 .w3l-call-to-action_9 .call-w3 {
   padding: 70px 0px;
+  background-color: #000000;
 }
 
 .w3l-call-to-action_9 .color-white h5 a {
@@ -5212,7 +5214,7 @@
 }
 
 .w3l-footer-29-main {
-  background: #222;
+  background: #001a4d;
 }
 .w3l-footer-29-main .footer-top-29 {
   display: grid;
@@ -6954,7 +6956,8 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff;
+  background-color: #daa520;
+  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><g><circle cx="16" cy="8" r="5" fill="%23E8E8E8" stroke="%23333" stroke-width="0.5"/><rect x="14" y="13" width="4" height="8" fill="%23FF6B6B"/><circle cx="16" cy="8" r="4.5" fill="none" stroke="%23333" stroke-width="0.5"/><rect x="12" y="21" width="2" height="8" fill="%23999"/><rect x="18" y="21" width="2" height="8" fill="%23999"/></g></svg>') 16 16, auto;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -7505,6 +7508,7 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  background-color: transparent;
 }
 @media (min-width: 576px) {
   .container {
@@ -16694,7 +16698,7 @@ a.text-dark:focus {
 
 body.dark {
   --log-nav: #fff;
-  --header-title-color: #ffffff;
+  --header-title-color: #fa26a0;
   --para-color: #9c9c9b;
   --bg-color: #111;
   --back-color: #222;
@@ -16966,7 +16970,7 @@ img {
 a.logo-button {
   border: 2px solid #fa26a0;
   background: #fa26a0;
-  color: #ffffff;
+  color: #fa26a0;
   font-size: 16px;
   line-height: 25px;
   display: inline-block;
